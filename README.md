@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository](https://your-solution-url.com)
-- Live Site URL: [Responsive Social Link](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/AureliusAria/social-link-profile/)
+- Live Site URL: [Responsive Social Link](https://aureliusaria.github.io/social-link-profile/)
 
 ## My process
 
