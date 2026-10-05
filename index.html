@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        /* font-size: 10px; */
+        /* 10px / 16px = 0.625 = 62.5% */
+        /* Percentage of user's browser font-size setting */
+        font-size: 62.5%;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        line-height: 1;
+        background-color: #141414;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 38.4rem;
+        margin: 0 auto;
+      }
+
+      .social-link-card {
+        max-width: 38.4rem;
+        margin: 0 auto;
+        background-color: #333333;
+        border-radius: 15px;
+        padding: 3rem;
+        text-align: center;
+      }
+      h1 {
+        color: #ffffff;
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+      .social-link-location {
+        color: #c5f82a;
+        margin-bottom: 2rem;
+      }
+
+      .social-link-bio {
+        color: #ffffff;
+        margin-bottom: 1rem;
+        font-weight: 400;
+        opacity: 0.7;
+      }
+
+      .social-link-img {
+        height: 10rem;
+        border-radius: 50%;
+        margin: 0 auto 2rem;
+      }
+
+      .social-accounts {
+        font-size: 1.4rem;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .social-account:link,
+      .social-account:visited {
+        display: inline-block;
+        padding: 1.2rem 2rem;
+        margin: 0.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+        transition: background-color 0.3s;
+      }
+
+      .acc-visited:link,
+      .acc-visited:visited {
+        background-color: #555555;
+        color: #ffffff;
+      }
+
+      .acc-visited:hover,
+      .acc-visited:active,
+      .acc-visited:focus {
+        background-color: #c5f82a;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="social-link-card">
+        <img
+          class="social-link-img"
+          src="./assets/images/avatar-jessica.jpeg"
+          alt="Jessica Randall"
+        />
+        <h1>Jessica Randall</h1>
+        <p class="social-link-location">London, United Kingdom</p>
+        <p class="social-link-bio">"Front-end developer and avid reader."</p>
+        <div class="social-accounts">
+          <a href="#" class="social-account acc-visited">GitHub</a>
+          <a href="#" class="social-account acc-visited">Frontend Mentor</a>
+          <a href="#" class="social-account acc-visited">LinkedIn</a>
+          <a href="#" class="social-account acc-visited">Twitter</a>
+          <a href="#" class="social-account acc-visited">Instagram</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
